@@ -15,9 +15,10 @@ class App < Sinatra::Base
   get "/say/:number/:phrase" do
     #@num = params[:number].to_i
     #@phrase = params[:phrase]
+    return_string = ""
     (0..5).each do
   #    "#{@phrase}"
-      print "Hi"
+      return_string += "Hi"
     end
   end
 
