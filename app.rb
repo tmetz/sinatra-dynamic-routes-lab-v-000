@@ -17,7 +17,7 @@ class App < Sinatra::Base
     #@phrase = params[:phrase]
     (0..5).each do
   #    "#{@phrase}"
-      "Hi"
+      print "Hi"
     end
   end
 
