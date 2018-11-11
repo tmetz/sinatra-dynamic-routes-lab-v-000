@@ -20,6 +20,7 @@ class App < Sinatra::Base
   #    "#{@phrase}"
       return_string += "Hi"
     end
+    return_string
   end
 
 end
