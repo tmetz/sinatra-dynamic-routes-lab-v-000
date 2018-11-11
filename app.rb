@@ -16,7 +16,7 @@ class App < Sinatra::Base
     @num = params[:number].to_i
     @phrase = params[:phrase]
     return_string = ""
-    (0..@num).each do
+    (1..@num).each do
       return_string += @phrase
     end
     return_string
